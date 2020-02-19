@@ -1,0 +1,250 @@
+.sectionLeft>div{
+    margin-top: 50px;
+  }
+  
+  .sectionLeft>div:first-child{
+    margin-top: 0;
+  }
+  
+  .sectionFeed {
+    width: 66%;
+    background-color: #fff;
+    border: 1px solid #e9e9e9;
+  }
+  
+  .sectionLeft .sectionProfile {
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    height: 68px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .sectionLeft .sectionProfile .sectionProfile_wrap{
+    margin-left: 15px;
+  }
+  
+  .sectionLeft .sectionProfile .sectionProfile_wrap>dt,.sectionLeft  .sectionProfile .sectionProfile_wrap>dd {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  
+  .sectionLeft .sectionProfile .sectionProfile_thumnail{
+    overflow: hidden;
+    width: 32px;
+    height: 32px;
+    margin-right: 15px;
+    border-radius: 50%;
+  }
+  .sectionLeft .sectionProfile .sectionProfile_thumnail>a {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .sectionLeft .sectionProfile .sectionProfile_thumnail img{
+    width: 100%;
+  }
+  
+  .sectionLeft .sectionProfile .sectionProfile_id>a {
+    font-weight: 600;
+  }
+  
+  .sectionLeft .sectionProfile .sectionProfile_button{
+    width: 32px;
+    height: 32px;
+    margin-right: 15px;
+    font-size: 0;
+    background-repeat: no-repeat;
+    background-image: url("../images/more.png");
+    background-size: 32px;
+  }
+  
+  .sectionPicture img{
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .sectionIcon {
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    margin: 15px 0;
+    justify-content: space-between;
+  }
+  
+  .sectionIcon .sectionIcon_list{
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 10px;
+  }
+  
+  .sectionIcon .sectionIcon_list>li {
+    width: 24px;
+    height: 24px;
+    margin-left: 15px;
+  }
+  
+  .sectionIcon .sectionIcon_list li:first-child{
+    margin-left: 0;
+  }
+  
+  .sectionIcon .sectionIcon_list button {
+    display: block;
+    width: 100%;
+    height: 100%;
+    font-size: 0;
+    background-repeat: no-repeat;
+    background-image: url("../images/comment.png");
+    background-size: 24px;
+  }
+  
+  .sectionIcon .sectionIcon_list li:first-child button {
+    background-image: url("../images/heart2.png");
+  }
+  
+  .sectionIcon .sectionIcon_list li:last-child button {
+    background-image: url("../images/share.png");
+  }
+  
+  .sectionIcon .sectionIcon_bookMark {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+  }
+  
+  .sectionIcon .sectionIcon_bookMark button {
+    display: block;
+    width: 100%;
+    height: 100%;
+    font-size: 0;
+    background-repeat: no-repeat;
+    background-image: url("../images/bookmark.png");
+    background-size: 24px;
+  }
+  
+  .sectionLike {
+    padding: 0 10px;
+  }
+  
+  .sectionLike p{
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  .sectionLike p>span {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+    font-size: 0;
+    background-repeat: no-repeat;
+    background-image: url("../images/profile2.jpg");
+    border-radius: 50%;
+    background-size: 15px;
+  }
+  
+  .sectionLike p>em {
+    display: inline-block;
+    font-style: normal;
+    font-weight: 600;
+    vertical-align: top;
+  }
+  
+  .sectionLike p>em:last-child{
+    margin-left: 5px;
+  }
+  
+  .sectionText,.sectionReply{
+    margin-top: 5px;
+    padding: 0 10px;
+  }
+  
+  .sectionText a,.sectionReply a{
+    display: inline-block;
+    margin-right: 6px;
+    font-weight: 600;
+  }
+  
+  .sectionReply a{
+    margin-right: 6px;
+  }
+  
+  .sectionText p,.sectionReply p{
+    display: inline;
+  }
+  
+  .sectionReply p{
+    cursor: pointer;
+  }
+  
+  .sectionText .sectionText_button{
+    font-size: 15px;
+    color: #a5a5a5;
+  }
+  
+  .sectionReply {
+    margin: 10px 0 5px;
+  }
+  
+  .sectionReply>ul {
+    margin-bottom: 5px;
+  }
+  
+  .sectionReply>ul>li{
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .sectionReply>ul>li .sectionReply_heart{
+    width: 14px;
+    height: 14px;
+    margin-left: auto;
+    font-size: 0;
+    background-repeat: no-repeat;
+    background-image: url("../images/heart2.png");
+    -webkit-background-size: 14px;
+    background-size: 14px;
+  
+  }
+  
+  .sectionReply .sectionTime {
+    font-size: 13px;
+    color: #a2a2a2;
+  }
+  
+  .sectionIput {
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    height: 45px;
+    border-top: 1px solid #f3f3f3;
+    justify-content: space-between;
+  }
+  
+  .sectionIput>input{
+    width: calc(100% - 70px);
+    padding-left: 15px;
+    font-size: 14px;
+  }
+  
+  .sectionIput>button {
+    width: 50px;
+    font-size: 14px;
+    color: #0791ff;
+    opacity: 0.4;
+  }
+  
+  .sectionIput .sectionIput_button.on{
+    opacity: 1;
+  }
