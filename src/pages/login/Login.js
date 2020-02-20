@@ -26,7 +26,7 @@ class Login extends Component {
   }
 
   bntClass = (e) => {
-    return this.state.id.length > 0 && this.state.pwd ? 'cursorOn': '';
+    return this.state.id.length > 0 && this.state.pwd.length > 0 ? 'cursorOn': '';
   }
 
 
